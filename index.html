@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="script.js"></script>
+  <title>Repo-Stat-Viewer Web Service</title>
+  
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" class="navbar-brand">Repo-Stat-Viewer Web Service</a>
+    <ul class="navbar-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h1>Welcome to the Repo-Stat-Viewer Web Service</h1>
+    <p>Your go-to web service for Github user and repository statistics.</p>
+    <form action="/github-stats" method="GET" onsubmit="handleSubmit(event)">
+      <input type="text" id="username" placeholder="GitHub Name" required> <br><br>
+      <input type="text" id="username" placeholder="GitHub Repository" required>
+      <input type="submit" value="Get Stats">
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>© 2023 Repo-Stat-Viewer Web Service. All rights reserved. | Aminat Animashaun</p>
+  </footer>
+</body>
+</html>

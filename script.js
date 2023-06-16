@@ -39,17 +39,3 @@ function getStats() {
       });
   }
   
-/*
-    // Function to handle form submission
-    function handleSubmit(event) {
-      event.preventDefault(); // Prevent form submission
-
-      // Get the input value
-      const usernameInput = document.getElementById('username');
-      const username = usernameInput.value;
-
-      // Do something with the username (e.g., make an API request)
-      console.log(`Username: ${username}`);
-      // Add your logic here to make API requests or perform other actions with the username
-    }
-  */
